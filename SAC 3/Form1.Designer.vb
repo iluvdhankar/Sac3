@@ -28,7 +28,6 @@ Partial Class frmHomepage
         Me.PicBoxother1 = New System.Windows.Forms.PictureBox()
         Me.PicBoxtablet1 = New System.Windows.Forms.PictureBox()
         Me.PicBoxphone3 = New System.Windows.Forms.PictureBox()
-        Me.txtSearch = New System.Windows.Forms.TextBox()
         Me.PicBoxAbout = New System.Windows.Forms.PictureBox()
         Me.lblphone2 = New System.Windows.Forms.Label()
         Me.lblother1 = New System.Windows.Forms.Label()
@@ -103,16 +102,6 @@ Partial Class frmHomepage
         Me.PicBoxphone3.TabIndex = 6
         Me.PicBoxphone3.TabStop = False
         '
-        'txtSearch
-        '
-        Me.txtSearch.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer))
-        Me.txtSearch.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtSearch.Location = New System.Drawing.Point(824, 30)
-        Me.txtSearch.Multiline = True
-        Me.txtSearch.Name = "txtSearch"
-        Me.txtSearch.Size = New System.Drawing.Size(514, 27)
-        Me.txtSearch.TabIndex = 13
-        '
         'PicBoxAbout
         '
         Me.PicBoxAbout.BackColor = System.Drawing.Color.Transparent
@@ -130,7 +119,7 @@ Partial Class frmHomepage
         Me.lblphone2.Font = New System.Drawing.Font("Verdana", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblphone2.Location = New System.Drawing.Point(364, 416)
         Me.lblphone2.Name = "lblphone2"
-        Me.lblphone2.Size = New System.Drawing.Size(190, 16)
+        Me.lblphone2.Size = New System.Drawing.Size(189, 16)
         Me.lblphone2.TabIndex = 15
         Me.lblphone2.Text = "Samsung Galaxy Z Fold5 "
         '
@@ -140,9 +129,9 @@ Partial Class frmHomepage
         Me.lblother1.Font = New System.Drawing.Font("Verdana", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblother1.Location = New System.Drawing.Point(869, 414)
         Me.lblother1.Name = "lblother1"
-        Me.lblother1.Size = New System.Drawing.Size(188, 16)
+        Me.lblother1.Size = New System.Drawing.Size(191, 16)
         Me.lblother1.TabIndex = 16
-        Me.lblother1.Text = "Samsung Galaxy Watch6"
+        Me.lblother1.Text = "Samsung Galaxy Watch 6"
         '
         'lbltablet1
         '
@@ -150,7 +139,7 @@ Partial Class frmHomepage
         Me.lbltablet1.Font = New System.Drawing.Font("Verdana", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbltablet1.Location = New System.Drawing.Point(858, 730)
         Me.lbltablet1.Name = "lbltablet1"
-        Me.lbltablet1.Size = New System.Drawing.Size(220, 16)
+        Me.lbltablet1.Size = New System.Drawing.Size(219, 16)
         Me.lbltablet1.TabIndex = 17
         Me.lbltablet1.Text = "Samsung Galaxy Tab S9 Ultra"
         '
@@ -160,7 +149,7 @@ Partial Class frmHomepage
         Me.lblphone3.Font = New System.Drawing.Font("Verdana", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblphone3.Location = New System.Drawing.Point(373, 728)
         Me.lblphone3.Name = "lblphone3"
-        Me.lblphone3.Size = New System.Drawing.Size(181, 16)
+        Me.lblphone3.Size = New System.Drawing.Size(180, 16)
         Me.lblphone3.TabIndex = 19
         Me.lblphone3.Text = "Samsung Galaxy Z Flip5"
         '
@@ -170,7 +159,7 @@ Partial Class frmHomepage
         Me.lblphoneprice3.Font = New System.Drawing.Font("Verdana", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblphoneprice3.Location = New System.Drawing.Point(440, 748)
         Me.lblphoneprice3.Name = "lblphoneprice3"
-        Me.lblphoneprice3.Size = New System.Drawing.Size(53, 16)
+        Me.lblphoneprice3.Size = New System.Drawing.Size(52, 16)
         Me.lblphoneprice3.TabIndex = 20
         Me.lblphoneprice3.Text = "$1200"
         '
@@ -180,7 +169,7 @@ Partial Class frmHomepage
         Me.lbltabletprice1.Font = New System.Drawing.Font("Verdana", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbltabletprice1.Location = New System.Drawing.Point(950, 750)
         Me.lbltabletprice1.Name = "lbltabletprice1"
-        Me.lbltabletprice1.Size = New System.Drawing.Size(53, 16)
+        Me.lbltabletprice1.Size = New System.Drawing.Size(52, 16)
         Me.lbltabletprice1.TabIndex = 22
         Me.lbltabletprice1.Text = "$1345"
         '
@@ -190,7 +179,7 @@ Partial Class frmHomepage
         Me.lblotherprice1.Font = New System.Drawing.Font("Verdana", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblotherprice1.Location = New System.Drawing.Point(932, 430)
         Me.lblotherprice1.Name = "lblotherprice1"
-        Me.lblotherprice1.Size = New System.Drawing.Size(44, 16)
+        Me.lblotherprice1.Size = New System.Drawing.Size(43, 16)
         Me.lblotherprice1.TabIndex = 23
         Me.lblotherprice1.Text = "$500"
         '
@@ -200,7 +189,7 @@ Partial Class frmHomepage
         Me.lblphoneprice2.Font = New System.Drawing.Font("Verdana", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblphoneprice2.Location = New System.Drawing.Point(418, 436)
         Me.lblphoneprice2.Name = "lblphoneprice2"
-        Me.lblphoneprice2.Size = New System.Drawing.Size(53, 16)
+        Me.lblphoneprice2.Size = New System.Drawing.Size(52, 16)
         Me.lblphoneprice2.TabIndex = 24
         Me.lblphoneprice2.Text = "$1400"
         '
@@ -292,7 +281,6 @@ Partial Class frmHomepage
         Me.Controls.Add(Me.lblother1)
         Me.Controls.Add(Me.lblphone2)
         Me.Controls.Add(Me.PicBoxAbout)
-        Me.Controls.Add(Me.txtSearch)
         Me.Controls.Add(Me.PicBoxphone3)
         Me.Controls.Add(Me.PicBoxtablet1)
         Me.Controls.Add(Me.PicBoxother1)
@@ -319,7 +307,6 @@ Partial Class frmHomepage
     Friend WithEvents PicBoxother1 As PictureBox
     Friend WithEvents PicBoxtablet1 As PictureBox
     Friend WithEvents PicBoxphone3 As PictureBox
-    Friend WithEvents txtSearch As TextBox
     Friend WithEvents PicBoxAbout As PictureBox
     Friend WithEvents lblphone2 As Label
     Friend WithEvents lblother1 As Label
