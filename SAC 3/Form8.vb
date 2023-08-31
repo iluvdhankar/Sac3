@@ -21,7 +21,7 @@ Public Class frmDetailspage
     End Sub
 
     Public Sub WriteDataToFile(firstName As String, lastName As String, phone As String, email As String, amountOrdered As String, finalprice As Single)
-        'Write data to a txt file, you can change this to an acdb
+        'Write data to a txt file, you can change this a database if you want
         Dim appDataPath As String = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData)
         Dim folderPath As String = Path.Combine(appDataPath, "GadgetWorld")
 
@@ -57,7 +57,7 @@ Public Class frmDetailspage
         Dim folderPath As String = Path.Combine(appDataPath, "GadgetWorld")
         Dim filePath As String = Path.Combine(folderPath, "data.txt")
 
-        If File.Exists(filePath) Then
+        If File.Exists(filePath) Then 'Validation
             Dim allData As String = File.ReadAllText(filePath)
             If Not String.IsNullOrEmpty(allData) Then
                 Dim formattedData As String = FormatData(allData)
@@ -74,7 +74,7 @@ Public Class frmDetailspage
         Dim lines As String() = rawData.Split(Environment.NewLine.ToCharArray(), StringSplitOptions.RemoveEmptyEntries)
         Dim result As String = ""
 
-        For Each line As String In lines
+        For Each line As String In lines 'ITERATION
             Dim parts As String() = line.Split(","c)
 
             If parts.Length >= 1 Then
@@ -89,13 +89,12 @@ Public Class frmDetailspage
             If parts.Length >= 4 Then
                 result += "Email: " + parts(3) + Environment.NewLine
             End If
-            If parts.Length >= 5 Then
+            If parts.Length >= 5 Then 'Validation
                 result += "Address: " + parts(4) + Environment.NewLine
             End If
             If parts.Length >= 5 Then
                 result += "Amount ordered: $" + parts(5) + Environment.NewLine
             End If
-            ' Add other data types here
 
             result += Environment.NewLine ' Add a blank line between entries
         Next
